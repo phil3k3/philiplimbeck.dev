@@ -1,0 +1,57 @@
+# The state of GitOps in 2020
+
+Recently I was thinking about how to orchestrate deployments across a set of Kubernetes clusters. The traditional 
+recipe for this problem involves a traditional CI/CD tool, such as TeamCity or Jenkins, to be configured to use 
+their corresponding Kubernetes plugins (see here and here) for accessing the corresponding clusters. This means that
+you have to at first know which service at which version has to end up at which cluster.  
+
+Additional infrastructure is necessary when the CI/CD tool is not supposed to run on your own premises but in the cloud
+itself. 
+
+Options:
+
+* A traditional tool running on a federation cluster and direct acess
+
+Pros/Cons?
+
+* Spinnaker
+* FluxCD and Helm Operator
+* Tanka
+* Manual promotion (on small environments, otherwise error prone)
+* Google binary authorization in terms of staging -> production
+* ArgoCD
+* A combination of Jenkins, Git Actions, CircleCI and Cloudify to manage multi-cluster Kubernetes deployment
+
+
+https://www.linkedin.com/pulse/cncf-survey-breakdown-most-organizations-using-more-than-nati-shalom/?trackingId=NtaOgAw5RbGcnjKhmji8Zg==
+
+Entering GitOps
+
+GitOps is an approach which requires a much different mindset. Much like IoC suddenly makes dependencies injected 
+instead of composed, the approach GitOps takes is a similar reversal of who is in control in regards to changes to the 
+server. While traditionally, changes to the cluster (not necessarily the Kubernetes cluster), are performed from 
+outside, via shell commands, exposed Rest APIs or other protocols, the GitOps approach uses the pull-principle. 
+An actor - usually in form of a control-loop - observes declarative state in a Git repository and applies it onto your 
+cluster from within. That means that the cluster is shielded away from external access but fetches its desired target 
+state by itself and applies these changes automatically. 
+
+Challenges
+
+Dead letter queue for tasks which cannot be applied to the service. 
+
+Apart from the complexity, other issues arise when you have services scattered across multiple Kubernetes clusters, according to a repeated
+survey from 2019 and 2020, more than X % have more than one Kubernetes cluster for their environments. Which means the issue of a feasible
+and fail-safe way of deploying services across envioronments is a pressing one.
+
+Developer Experience 
+--------------------
+
+Entering Developer Experience (DevEx, or DX) is a term coined recently, and analogous to UX, it describes the degree of painfulness a developer has
+to go through to setup their services. This became more important with the advent of DevOps, as developers are largely also reponsible for keeping their
+services running. Before this was only about building them, while providing infrastructure as well as deploying them was performed by dedicated "Ops" or IT departments, usually also responsible for networking. 
+Hence, the DevEX wasn't an issue that much as specialists had enough time to prepare and arrange the right set of tools and custom solution for efficient deliveries.
+
+Almost 60% of companies interviewed in a survey have more than one production cluster.
+
+
+
