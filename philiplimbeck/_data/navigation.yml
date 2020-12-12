@@ -1,7 +1,9 @@
 main:
-  - title: "About Me"
-    url: /about
   - title: "Imprint"
-    url: /imprint    
-  - title: "Categories"
-    url: /categories/1
+    url: /imprint
+  - title: "About Me"
+    url: /cv
+  - title: "Career"
+    url: /career
+  - title: "Finance"
+    url: /finance

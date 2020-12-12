@@ -1,3 +1,9 @@
+---
+layout: single
+title:  "GitOps"
+date:   2020-10-13 16:11:35 +0200
+categories: jekyll update
+---
 # The state of GitOps in 2020
 
 Recently I was thinking about how to orchestrate deployments across a set of Kubernetes clusters. The traditional 

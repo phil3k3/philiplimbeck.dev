@@ -32,19 +32,9 @@ github_username:  phil3k3
 timezone: Europe/Amsterdam
 
 
-sidebar:
-  - title: "Title"
-    image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
 
 # Build settings
 theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
-
 minimal_mistakes_skin: "air"
 
 defaults:
@@ -55,6 +45,11 @@ defaults:
       author_profile: true
       show_date: true
       read_time: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
 
 social:
   links: 
@@ -76,6 +71,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phil3k3"
+
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,3 +1,17 @@
+---
+layout: single
+title:  "ByteBuddy"
+date:   2020-10-13 16:11:35 +0200
+categories: jekyll update
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+---
+
 # Using ByteBuddy to generate classes at runtime
 
 Although the JDK offers a reflection capabiliies which allow you to introspect classes, their methods and properties,
