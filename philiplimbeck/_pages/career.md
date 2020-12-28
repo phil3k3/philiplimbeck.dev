@@ -61,17 +61,15 @@ tendons, basically a lot more in your body than you think. Also the link menione
 
 * Tools
 
-Get the best tools money can buy. If you are 50% faster with a mechanical keyboard (which I am) get it, get big screens a powerful
-laptop, learn your OS inside out, learn to optimize it, to run it, use smart ways to backup your configuration or you will 
-lose time (and data) to set everything back up (time = money) (refer to the software engineering career book). I am using the Cherry MX with Brown Switches. 
-Mechanical keyboards are known for their durability, precision and latency, making them ideal for 
-gamers. But  even if you are just typing a lot, it already pays off. An overview on the different switches
-can be found at https://www.hyperxgaming.com/austria/us/keyboards/switches#:~:text=CHERRY%20MX%20Red%20and%20CHERRY,enjoy%20the%20edge%20in%20speed.
+Get the best tools money can buy. If you are 50% faster with a mechanical keyboard (which I am), then get it. Also consider one or more big screens to get more overview
+on what are you working on and what is going in your codebase. Get a powerful laptop, learn your OS inside out, learn to optimize it and run it. Once you have a setup
+which is to your convinence, backup your configuration to be able to quickly restore it on a different laptop should yours fail. Just like with infrastructure which runs
+services, you don't want to risk a lengthy downtime as you re-setup your working environment.  
 
 * Alocohol and caffein
 
-It is fine to drink Alcohol, but if you notice any side effects and only you notice that your are a little more tired on the next day, avoid it.
-Caffein is a stimulant and should be used wisely. Don't have 5 coffees just because you are more productive, anything which 
+It is fine to drink Alcohol, but if you notice any side effects, such as decreased energy levels during the day or sleeping problems, avoid it.
+Caffein is a stimulant and should be used wisely. Don't have five coffees just because you feel more productive, but let's you end up having problems falling asleep later. Anything which 
 affects sleep is bad for you. Studies show that any caffein intake after 2 pm can affect your circadian rythym and natural sleep (see bullet point 'Sleep')
 
 * NO Drugs
@@ -80,51 +78,41 @@ Not sure what to say about that.
 
 * Meditation
 
-Regular mediation allows you to stay more focussed and mindful on what is going on in the present moment. 
-This is essential for supporting mission-critical software running 24x7. 
-When something happens, you want to be fully alert and in the present moment, being able to analyze and address the problem at hand.  
-Therefore skipping meditation can mean the difference between making things worse by reacting in a compulsive way during a system outage, instead of calmly but swiftly responding
+Regular mediation allows you to stay more focussed and mindful on what is going on in the present moment. This is essential for supporting mission-critical software which is supposed to run 24x7. 
+When an incident occurs, you want to be fully alert and in the present moment, able to analyze and address the problem at hand.  
+Therefore, skipping meditation can mean the difference between making things worse by reacting in a compulsive way during a system outage, instead of calmly but swiftly responding
 to the problem and being the hero of the day.
 
 * Reading
 
 Reading is to the mind what exercise is to your body. People who read are according to many studies (ref) much more successful 
-than people who don't. In addition, the information density in books is much higher than when you are watching videos or listen
-to audio. So if you want to ingest as much information as possible about a topic, reading is the best way forward. I suggest
-getting a Kindle (amazon affilite marketing link) as it can store thousands of books which you have at hand at all times instead
-of taking them with you.
+than people who don't. In addition, the information density in books is much higher compared to videos or audio content.
+So if you want to ingest as much information as possible about a specific topic, reading is the best way forward. I suggest
+getting a Kindle (DE: https://amzn.to/37RRkGe EN: https://amzn.to/2WSKR7q ) as it allows you to carry thousands of books with you at all times.
 
-See my bookshelf for books I can absolutely recommend to read to ensure you have a positive mindset which helps you shape your career, financial success
-and your relationships.
-
+For recommendations on which books to read to give you a positive mindset, see my bookshelf. 
 
 * Communicate
 
-You can't really move forward in your career as software engineer when you cannot communicate efficiently. That is, be precise
+You can't really move forward in your career as software engineer when you cannot communicate efficiently and clearly. That is, be precise
 , don't leave out information and be able to articulate your thoughts on a problem so that others can join in and support you.
-Software engineering is not just about coding but about finding solutions to problems on a daily basis. If are not able
-to convery these problems and your solutions in both written and oral ways, then you won't be able to have peers solve big
-problems jointly. Another importance attributed to communication is to let your peers, your manager, your team, your product manager etc..
-know what they can expect and what you are up against. Under-communication is way worse than over-communication.    
+Software engineering is not just about writing code but about finding solutions to problems. If are not able to convey these problems and your solutions in both written and spoken ways, 
+then you won't be able to have peers help you solve the problem jointly. Another important fact related to communication is to let your peers, your manager, your team, your product manager etc..
+know what they can expect and what you are up against. Under-communication is always worse than over-communication.    
     
 
-* Don't eat lunch at your desk
+* Dedicate time to a lunch break
 
-Eating lunch at your desk psychologically keeps you in your problem solving mode and you don't have a change to literally
-step back from the problem and do something else. My experience is that many problems are solved after a break as you are able
-to approach the problem from a different angle.    
+Eating lunch at your desk psychologically keeps you in your problem-solving mode and you don't really step back from your problems but keep pondering about them. 
+My experience is that many problems are solved after a break, as you are able to let your subconscious mind deal with it.    
 
 * Take care of your relationships
 
-Especially in your free time you will encounter people who drain your positive energy and attitude towards life. It is at
-best for you and your career to avoid them completely. If they do you a large amount of mental harm or put themselves 
-between you and your success, simply cut them out of your life. You tend to be the average of the five people you spend most
+It is quite possible to regularly encounter people who will drain your positive energy and attitude towards life. You can only
+avoid this by avoiding people altogether, which is even less beneficial. But that means you have to be able to deal with these people
+productively and do you best to contain their influence to you and your success. In they worst case, you have to consider cutting them
+ out of your life completely, especially when they try to sabotage your efforts to improve yourself.  
+between and your success, simply cut them out of your life. You tend to be the average of the five people you spend most
 of your time with, so anybody in your inner circle with habits contradicting yours might lead to worse results in your goals. If you surround
 yourself with people you smoke, you run the risk of smoking as well. The same goes with people who don't take care of their health
 and their success. All of these factors have the risk of dragging you down eventually.
-
-
-Other books I can recommend: 
-
-https://affiliate-program.amazon.com/home
-https://partnernet.amazon.de/
