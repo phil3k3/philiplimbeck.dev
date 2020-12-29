@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /bookshelf/
+classes: wide
 ---
 # Bookshelf
 

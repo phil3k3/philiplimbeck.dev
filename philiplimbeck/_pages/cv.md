@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /cv/
+classes: wide
 ---
 
 I am a passionate software engineer and data enthusiast with over 10 years of professional experience in developing scalable, sustainable and reliable software. Familiar with all stages in the development cycle from design to continuous delivery. Fond of working in agile software development organizations and customer-oriented environments. Seeks and fosters practices of constant improvement for the team as well as for himself. Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.

@@ -7,3 +7,5 @@ main:
     url: /career
   - title: "Finance"
     url: /finance
+  - title: "Bookshelf"
+    url: /bookshelf

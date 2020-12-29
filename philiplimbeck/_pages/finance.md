@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /finance/
+classes: wide
 ---
 
 - Automate your finance

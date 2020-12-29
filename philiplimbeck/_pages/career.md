@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /career/
+classes: wide
 ---
 
 # Healthy Software Engineer Guide
@@ -24,7 +25,8 @@ To get to the stage where your work output becomes smart, you need to live smart
 you need to workout, you need to set aside time for social life and fresh air. You need to have fun at work and in your 
 life. Going the extra mile in smart and efficient way becomes much easier when your body is healthy and balanced. 
 
-This little bullet point list are pillars for building a remarkable career as a software engineer or any related position in the tech sector.
+The following bullet point list are my personal pillars for building a remarkable career as a software engineer or any related position in the tech sector. You might disagree with one or the other
+item, which is fine as well, but I want you use it as a blueprint to build your own principles on how to move forward. 
 
 * Sleep 
 
@@ -42,9 +44,9 @@ The golden rule - if you see advertisements for it, avoid it. Meat, fish, nuts, 
 Vitamin tests find that you are low on Vitamin D for example. The brain uses the most calories of all your body.
 
 Since your career depends to a quite large extend on the proper function and nutrition of our brain, anything which supports its mechanisms is beneficial to consume. 
-This article gives a good primer on brain food and healthy diet: https://healthybrains.org/pillar-nutrition/. Be aware though, that this is a recommendation and that 
-there are other contradicting ones out there. In combination with your fitness level, it is important though to keep discipline and good habits
-when it comes to food and snacks. To avoid cues, you could just stop buying sweets and snacks, so that they simply become unavailable when you crave them. 
+This article gives a good primer on brain food and healthy diet: [https://healthybrains.org/pillar-nutrition/](https://healthybrains.org/pillar-nutrition/). TLDR; Eat like the Italians do. 
+Be aware though that this topic is highly individual, as you might chose to not eat meat, or have other dietary preferences. The gist of it is to eat whatever makes you feel productive and healthy and does not d
+drag you down and lowers your energy levels. 
 
 * Exercise
 
@@ -52,12 +54,12 @@ You are sitting a lot, quite a lot. Don't just commute from your office desk to 
 , gym, yoga, Karate or whatever activity you may prefer. You don't need to become an athlete, but increasing your fitness level also increases your energy
 level, which means you can think faster, have more focus and more energy to push through any challenge in your work day. In addition, it has the 
 benefit of balancing out the negative effects of sitting. As sitting is considered as severe to your health as smoking.  
-A website dedicated to the risks of sitting vs the advantages of standing is: https://www.startstanding.org/sitting-new-smoking/
+A website dedicated to the risks of sitting vs the advantages of standing is: [https://www.startstanding.org/sitting-new-smoking/](https://www.startstanding.org/sitting-new-smoking/)
 
 * Chair
 
 Ask for the best chair your employer can get you. If you are working from home, organize one yourself and don't be thrifty as it highly affects the health of your back muscles, 
-tendons, basically a lot more in your body than you think. Also the link menioned above eloborates this topic further: https://www.startstanding.org/sitting-new-smoking/
+tendons, basically a lot more in your body than you think. Also the link mentioned above eloborates this topic further: [https://www.startstanding.org/sitting-new-smoking/](https://www.startstanding.org/sitting-new-smoking/)
 
 * Tools
 
@@ -66,7 +68,7 @@ on what are you working on and what is going in your codebase. Get a powerful la
 which is to your convinence, backup your configuration to be able to quickly restore it on a different laptop should yours fail. Just like with infrastructure which runs
 services, you don't want to risk a lengthy downtime as you re-setup your working environment.  
 
-* Alocohol and caffein
+* Alocohol and Caffein
 
 It is fine to drink Alcohol, but if you notice any side effects, such as decreased energy levels during the day or sleeping problems, avoid it.
 Caffein is a stimulant and should be used wisely. Don't have five coffees just because you feel more productive, but let's you end up having problems falling asleep later. Anything which 
@@ -74,7 +76,7 @@ affects sleep is bad for you. Studies show that any caffein intake after 2 pm ca
 
 * NO Drugs
 
-Not sure what to say about that.
+Not sure what to say about that. I know that micro-dosing is a thing, but 
 
 * Meditation
 
@@ -88,9 +90,9 @@ to the problem and being the hero of the day.
 Reading is to the mind what exercise is to your body. People who read are according to many studies (ref) much more successful 
 than people who don't. In addition, the information density in books is much higher compared to videos or audio content.
 So if you want to ingest as much information as possible about a specific topic, reading is the best way forward. I suggest
-getting a Kindle (DE: https://amzn.to/37RRkGe EN: https://amzn.to/2WSKR7q ) as it allows you to carry thousands of books with you at all times.
+getting a Kindle ([Amazon de](https://amzn.to/37RRkGe) \| [Amazon en](https://amzn.to/2WSKR7q) ) as it allows you to carry thousands of books with you at all times.
 
-For recommendations on which books to read to give you a positive mindset, see my bookshelf. 
+For recommendations on which books to read to give you a positive mindset, see my [Bookshelf]({{ site.baseurl }}{% link _pages/bookshelf.md %}). 
 
 * Communicate
 
@@ -112,7 +114,7 @@ It is quite possible to regularly encounter people who will drain your positive 
 avoid this by avoiding people altogether, which is even less beneficial. But that means you have to be able to deal with these people
 productively and do you best to contain their influence to you and your success. In they worst case, you have to consider cutting them
  out of your life completely, especially when they try to sabotage your efforts to improve yourself.  
-between and your success, simply cut them out of your life. You tend to be the average of the five people you spend most
+You tend to be the average of the five people you spend most
 of your time with, so anybody in your inner circle with habits contradicting yours might lead to worse results in your goals. If you surround
-yourself with people you smoke, you run the risk of smoking as well. The same goes with people who don't take care of their health
-and their success. All of these factors have the risk of dragging you down eventually.
+yourself with people who smoke, you run the risk of smoking as well. They define how your life is led to quite big extend, making you prone to 
+jeopardizing your health and your success.
