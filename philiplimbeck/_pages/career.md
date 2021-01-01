@@ -5,48 +5,45 @@ classes: wide
 ---
 
 # Healthy Software Engineer Guide
-As we all know, [Software is eating the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world/). But that means that more and more people decide
-for themselves to work as software engineer, QA engineer or product owner. This new form of diversity regarding the peoples personalities', skill-sets', skin-colors', sexual orientations' and genders' increased dramatically.
+As we all know, [Software is eating the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world/). That means that more and more people decide
+to work as software engineer, QA engineer or product owner. The diversity regarding the peoples personalities', skill-sets', skin-colors', sexual orientations' and genders' increased dramatically.
 The widespread view of the overweight software engineer with glasses, pale skin and no social skills is slowly becoming a thing of the past.
 
-Another remarkable development is the introduction of the DevOps paradigm and cloud computing now being ubiquitous. That means
-that traditional software development processes don't really adjust nicely to this new way of developing and operating software. And although these advances are beneficial,
-they also lead to an increased stress level as software must be able to run reliably 24x7. Simple eCommerce web-shops became as critical 
+As cloud computing became widely used and ubiquitous, traditional software development processes had to give way to a new way of developing and operating software, called _DevOps_. 
+And although these advances are beneficial, they also lead to an increased stress level as software must be able to run reliably 24x7. Simple eCommerce web-shops became as critical 
 to operate as nuclear reactors. 
   
 These stress levels mean that to stay afloat this progress, software engineering as a career changes. People working in the tech industry are not just smart people.
-They increasingly understand that in order to achieve software engineering and furthermore carreer goals and build the best solutions possible, their body needs to stay fit as well.
+They increasingly understand that in order to achieve their goals and build the best solutions possible, their body needs to stay fit as well.
 
 This is not about special chairs to support back problems, it starts with a work ethic which uses automation, smart solutions and 
-do more with less. It is about making your brain and your body as efficent as possible to focus for 6 hours and be done for the day in contrast to 
-dragging yourself through 10 hours of work, almost providing no real progress.
+to do more with less. It is about making your brain and your body as efficent as possible to stay focussed and mentally clear for many consecutive hours.
 
-To get to the stage where your work output becomes smart, you need to live smart, you need to eat smart, you need to sleep, you need to meditate for improved focus, 
-you need to workout, you need to set aside time for social life and fresh air. You need to have fun at work and in your 
-life. Going the extra mile in smart and efficient way becomes much easier when your body is healthy and balanced. 
+To get to the stage where your work output becomes smart, you need to sleep smart, you need to eat smart, you need to meditate for improved focus, 
+you need to workout and you need to set aside time for social life and fresh air. You need to have fun at work and in your life as a whole. 
+Going the extra mile in a smart and efficient way becomes much easier when your body is healthy and balanced. 
 
 The following bullet point list are my personal pillars for building a remarkable career as a software engineer or any related position in the tech sector. You might disagree with one or the other
 item, which is fine as well, but I want you use it as a blueprint to build your own principles on how to move forward. 
 
 * Sleep 
 
-Don't stay awake to binge watch the latest series. But you also don't get up at 5 am just because you want to squeeze more life-improving activities in. There are many guides 
-on how to optimize sleep, but I recommend not saving on matresses and pillows, investing in sleep material is critical. Don't take the phone
-or worse the laptop into the bed. Ideally your bedroom is for sleeping and having sex only. Also don't work in your bedroom, put your desk somewhere else.
+Don't stay awake to binge watch the latest series. But you also don't need to up at 5 am just because you want to squeeze more activities in. There are many guides 
+on how to optimize sleep, but I recommend not saving on matresses and pillows. Investing in sleep equipment means investing in your well-being. Avoid electronics in your bedroom, especially your phone.
+Ideally your bedroom is for sleeping and having sex only. Ideally also your desk is located in a different room, to mentally associate the bedroom with sleep.
 
-If you want to understand the reasons and the background on effective sleep I can recommend _Why We Sleep: Unlocking the Power of Sleep and Dreams_ by Matthew Walker PhD
+If you want to understand the importance and the background of effective sleep I can recommend _Why We Sleep: Unlocking the Power of Sleep and Dreams_ by Matthew Walker PhD
 ([Amazon de](https://amzn.to/38FNK0O )| [Amazon en](https://amzn.to/34Oga82)).
 
 * Eat
 
-You can have a delicious Burrito or other things once a while, but otherwise stick to proteins, carbs and vegetable rich food. 
-The golden rule - if you see advertisements for it, avoid it. Meat, fish, nuts, anything which keeps your brain going. Take supplements if
-Vitamin tests find that you are low on Vitamin D for example. The brain uses the most calories of all your body.
+Your brain works on different types of nutritional elements, such as vitamins, proteins and carbohydrates. It consumes over 20% of your energy for a body mass of only 2% of your whole body. That means
+consuming vegetable rich food, but also meat, fish, nutes and whole-grain carbs will help your brain to function properly. It doensn't mean that you can't eat sugary or othewise unhealthy food, as long
+as it stays the exception not the rule. Otherwise stick to the golden rule - if you see advertisements for it, avoid it. So yes, you can have a delicious Burrito or other things once a while. Regarding
+your daily Vitamin requirements, it's best to check with your doctor for any defiancies first before taking supplements. 
 
-Since your career depends to a quite large extend on the proper function and nutrition of our brain, anything which supports its mechanisms is beneficial to consume. 
 This article gives a good primer on brain food and healthy diet: [https://healthybrains.org/pillar-nutrition/](https://healthybrains.org/pillar-nutrition/). TLDR; Eat like the Italians do. 
-Be aware though that this topic is highly individual, as you might chose to not eat meat, or have other dietary preferences. The gist of it is to eat whatever makes you feel productive and healthy and does not d
-drag you down and lowers your energy levels. 
+The gist of it is to eat whatever makes you feel productive and healthy and does not drag you down and lowers your energy levels. 
 
 * Exercise
 
@@ -76,7 +73,7 @@ affects sleep is bad for you. Studies show that any caffein intake after 2 pm ca
 
 * NO Drugs
 
-Not sure what to say about that. I know that micro-dosing is a thing, but 
+]I know that micro-dosing is a thing, but it's a game with your dopamin levels many people have lost.
 
 * Meditation
 
