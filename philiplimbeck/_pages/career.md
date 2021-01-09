@@ -108,7 +108,7 @@ My experience is that many problems are solved after a break, as you are able to
 * Finance
 
 Learn to save and don't overspend. Consumption keeps you side-tracked on what actually matters in life and usually leaves you less time to improve yourself. That being said, you should still focus
-to build up wealth. Money is not a means to consume but a means to create and extend your freedom in life. Because this is one of my prime interests recently, I dedicated it a separate [article]({{ site.baseurl }}{% link _pages/finance.md %}). 
+on building up wealth. Don't look at money a means to consume, but a means to create and extend your freedom in life. 
 
 * Relationships
 

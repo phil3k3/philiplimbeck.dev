@@ -1,21 +1,22 @@
 ---
 layout: single
-title:  "GitOps"
+title:  "Setup GitHub Actions through a GitHub App"
 date:   2020-10-13 16:11:35 +0200
 categories: jekyll update
 ---
 
-# Creating GitHub Actions by authenticating from a GitHub App
+# Preparations
 
-## Setup
+* Create your GitHub App by following the steps described at [https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app)
+* It needs to have Read & Write access to the repository contents in order to be able to read and subsequently commit files
 
-* Create  your GitHub App by folllowing the steps described at [https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app)
-* It needs to have Read & Write access to contents in order to be able to read and subsequently commit files
+![](/assets/images/github.png)
+  
 * Generate a private key as described at [https://docs.github.com/en/free-pro-team@latest/developers/apps/authenticating-with-github-apps](https://docs.github.com/en/free-pro-team@latest/developers/apps/authenticating-with-github-apps)
   and download it
-* Install the GitHub App to your organization or user. In case of chosing an organization you have to define the repsoitories
+* Install the GitHub App to your organization or user. In case of choosing an organization you have to define the repositories
   the app should have access to.
-* Note down the applications' id to generate a Json Web Token later on
+* Note down the application's id to generate a Json Web Token later on
 * Convert the downloaded private key PEM file into a DER file, which is consumable by Java:  
 
 ```shell
@@ -23,7 +24,7 @@ openssl pkcs8 -topk8 -inform PEM -outform DER -in myapp.2021-01-03.private-key.p
 ```
 
 
-## Authentication
+# Authentication
 
 * Generate a Json Web Token  
 
@@ -54,23 +55,33 @@ long expMillis = nowMillis + ttlMillis;
 Date exp = new Date(expMillis);
 builder.setExpiration(exp);
  
-String jwtToken = builder.compact() 
-GitHub gitHubApp = new GitHubBuilder().withJwtToken(jwtToken).build();
+String jwtToken = builder.compact()
+```
+* Use it to create a so-called App Installation token
+
+```java
+GitHub gitHubApp = new GitHubBuilder()
+        .withJwtToken(jwtToken)
+        .build();
 
 String organisation = "...."
-GHAppInstallation appInstallation = gitHubApp.getApp().getInstallationByOrganization(organisation);
+GHAppInstallation appInstallation = gitHubApp
+        .getApp()
+        .getInstallationByOrganization(organisation);
 
 Map<String, GHPermissionType> permissions = new HashMap<>();
 permissions.put("contents", GHPermissionType.WRITE);
 permissions.put("metadata", GHPermissionType.READ);
 
 GHAppInstallationToken appInstallationToken = appInstallation
-          .createToken(permissions)
-          .create();
+        .createToken(permissions)
+        .create();
 ```
-Don't worry about the deprecation warnings, as there is no given alternative. This [issue](https://github.com/hub4j/github-api/issues/961) describes the background of this problem.
 
-* Get an installation token,  this will authenticate yourself against the organisations auth entity.
+Don't worry about the deprecation warnings, as there is no given alternative. 
+This [issue](https://github.com/hub4j/github-api/issues/961) describes the background of this problem.
+
+* Get an installation token, this will authenticate yourself against the organisations auth entity.
 
 ```java
 GitHub githubAuthAsInst = new GitHubBuilder()
@@ -81,15 +92,15 @@ String repositoryName = "...."
 var repository  = githubAuthAsInst.getRepository(organisation+"/"+repositoryName);
 ```
 
-## Generate the workflow file
+# GitHub Workflow
 
-The next step involves creating a workflow file to describe what should happen in your repsitory on commit. As the workflow file
+The final step involves creating a workflow file to describe what should happen in your repository on a commit. As the workflow file
 is simply a declarative file of workflow actions, we can simply create a file and commit it to the _.github_ directory.
 
-This [guide](https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-java-with-maven) explains how workflow files look like. You can adapt it based on what is needed
-to build your application. 
+* Create your workflow file as described in this [guide](https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-java-with-maven). 
+  You can adapt it based on what is needed to build your application. 
 
-All what is needed as a final step is to push the generated file to the repsitory:
+* Commit the workflow file to the repository:
 
 ```java
 String workflowFile = "...."
@@ -98,7 +109,7 @@ repository.createContent()
         .content(workflowFileBytes)
         .path(".github/workflows/maven.yaml")
         .branch(repository.getDefaultBranch())
-        .message("create workflow file")
+        .message("setup workflow file")
         .commit()
 ```
 
