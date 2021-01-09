@@ -5,7 +5,7 @@ classes: wide
 ---
 #Healthy Finances Guide
 
-Your career is largely affected by how you are able to manage your finances. This gets more important
+A major importance is Your career is largely affected by how you are able to manage your finances. This gets more important
 as you reach  a certain level of income as you might be tempted to buy all the fancy things you always wanted. 
 Hence, overconsumption becomes your enemy, and you must start thinking about saving and keeping your earned money. 
 This leads to the first cardinal rule about personal finance:
@@ -23,6 +23,7 @@ where you don't have a debit card for. From there, you can further split up your
 be your emergency fund, for broken things, repairs, etc.. One could be your future budget for holidays. And the most important and third one, should be the source
 of your investments. This also defines the next principle:
 
+* Don't trade ("Hin und her macht Taschen leer" German "going in and out empties your pockets")
 * Pay yourself first
 
 Don't take whatever sum is left and save it, but take the same amount every month.
@@ -31,30 +32,35 @@ Don't take whatever sum is left and save it, but take the same amount every mont
   - 1000 Euro
   - 10000 Euro
   - 100000 Euro
-  
-  
+    
+
+
 The gist of it is that it's better to start investing in yourself, in your human capital and in your possibilty to generate more sources of income. 
 Don't interrupt your path. Don't optimize before having a high savings rate. 
 
+* Be aware that other investors have another time horizons and goals, so you are not playing their game, but your own game.
+* Choose a strategy with which you are able to sleep at night, not the one giving you the greatest return
+    - if it's a lot of cash, so be it
+    - if it's index funds so bit 
+* Convert your spendings from personal consumption (clothing, accessories, eletronics) to personal investing (books, courses, networking events, ....)
+* If you didn't do you research or don't have time for it, stick with index funds (ETFs), ideally you have an "edge" (an insight, an advantage) to other investors, because for example you work in the industry
+    - Only stock pick if you have done your homework (balance sheets, industry, numbers, etc..) and you made an invstement case, ideally based on an edge you have
+      compared to other investors
+* Don't overspend, cancel anything you haven't used in the last 2 months at least 5 times (i.e. gym, Netflix, etc...)
 
 
-
-- Pay yourself first (don't save what is left from your expenses, but take away savings right away)
 - Especially with small regular investments, fees are your biggest enemy to try to avoid them as good as you can
-- Only stock pick if you have done your homework (balance sheets, industry, numbers, etc..) and you made an invstement case, ideally based on an edge you have
-  compared to other investors
-- If you didn't do you research or don't have time for it, stick with index funds (ETFs), ideally you have an "edge" (an insight, an advantage) to other investors, because for example you work in the industry
+
+
 - Keep at least 20-30% in cash ,depending on your risk-avoidance and age (the older and less risk averse, more cash)
 - Start early, compounding makes up a big factor in your long term gains (i.e. start now)
-- Don't overspend, cancel anything you haven't used in the last 2 months at least 5 times (i.e. gym, Netflix, etc...)
-- Convert your spendings from personal consumption (clothing, accessories, eletronics) to personal investing (books, courses, networking events, ....)
+
+
 - If you have a mortage, don't pay it back if you interest rates are much lower than your potential average future gains on the stock market
 - If you start from scratch, don't invest in stocks but invest in yourself to setup and expand your income streams first
 - If it crashes, you should consider buying in, with every -10% you should by more stock
-- Choose a strategy with which you are able to sleep at night, not the one giving you the greatest return
-	- if it's a lot of cash, so be it
-	- if it's index funds so bit
-- Be aware that other investors have another time horizons and goals, so you are not playing their game, but your own game (?)
+
+- 
 - Live below your means
 - Don't optimize before having a high savings rate
 - Never interrupt your path

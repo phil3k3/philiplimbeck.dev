@@ -49,5 +49,3 @@ class Test {
 }
 ```
 The snipped above will print the content of the overridden method instead of the original method.
-
-Several other secenarios are possible. Final classes can be derived (really?) as well as i

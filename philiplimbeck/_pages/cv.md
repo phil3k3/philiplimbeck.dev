@@ -4,14 +4,27 @@ permalink: /cv/
 classes: wide
 ---
 
-I am a passionate software engineer and data enthusiast with over 10 years of professional experience in developing scalable, sustainable and reliable software. Familiar with all stages in the development cycle from design to continuous delivery. Fond of working in agile software development organizations and customer-oriented environments. Seeks and fosters practices of constant improvement for the team as well as for himself. Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
+I am a passionate software engineer, team lead and data enthusiast with over 12 years of professional experience in developing scalable, sustainable and reliable software. 
+Familiar with all stages in the development cycle from design to continuous delivery. Fond of working in agile software development organizations and customer-oriented environments. 
+Seeks and fosters practices of constant improvement for the team as well as for himself. Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
 
 
 **Engineering Team Lead** _Nov 2019 - Present_
 
+* Leading the trading team and soon after the whole broker core team including cash/asset management
+* Growing the and building up a highly motivated and   
+* Integration with several partners to improve the quote rates as well as enable fractional trading in the platform
+* Infrastructure harmonization as well as decluttering through Terraform
+* Several contributions to the BUX internal CQRS framework 
+
 _BUX BV, Amsterdam_
 
 **Senior Backend Developer** _Oct 2018 - Oct 2019_
+
+* Forming of software processes to enable the development of BUX Zero
+* Software design and architecture of the core platform 
+* Successful launch of a stable and reliable trading platform based on Kafka and CQRS
+* Introduction of US Stocks
 
 _BUX BV, Amsterdam_
 
@@ -52,11 +65,14 @@ _Senactive GmbH, Vienna_
 
 An attempt to integrate the Esper engine with its query capabilities for pattern matching into Apache Flink to provide highly scalable pattern matching on event streams.
 
-## Education
+ ## Education
 
 * **MSc in Medical Informatics** Vienna University of Technology _2009 - 2011_
 * **BSc in Medical Informatics** Vienna University of Technology _2005 - 2008_
 * **Certified Scrum Master** (Scrum Alliance) _2015_ (expired)
+* COURSES
+* Managing Talent course
+
 
 ## Languages
 * **German** (Native)

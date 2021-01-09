@@ -1,0 +1,104 @@
+---
+layout: single
+title:  "GitOps"
+date:   2020-10-13 16:11:35 +0200
+categories: jekyll update
+---
+
+# Creating GitHub Actions by authenticating from a GitHub App
+
+## Setup
+
+* Create  your GitHub App by folllowing the steps described at [https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app)
+* It needs to have Read & Write access to contents in order to be able to read and subsequently commit files
+* Generate a private key as described at [https://docs.github.com/en/free-pro-team@latest/developers/apps/authenticating-with-github-apps](https://docs.github.com/en/free-pro-team@latest/developers/apps/authenticating-with-github-apps)
+  and download it
+* Install the GitHub App to your organization or user. In case of chosing an organization you have to define the repsoitories
+  the app should have access to.
+* Note down the applications' id to generate a Json Web Token later on
+* Convert the downloaded private key PEM file into a DER file, which is consumable by Java:  
+
+```shell
+openssl pkcs8 -topk8 -inform PEM -outform DER -in myapp.2021-01-03.private-key.pem -out myapp.2021-01-03.private-key.der -nocrypt
+```
+
+
+## Authentication
+
+* Generate a Json Web Token  
+
+```java
+String applicationId = "....";
+        
+SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.RS256;
+
+long nowMillis = System.currentTimeMillis();
+Date now = new Date(nowMillis);
+
+String keyFile = "....";
+byte[] keyBytes = Files.toByteArray(new File(keyFile));
+
+PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(keyBytes);
+KeyFactory kf = KeyFactory.getInstance("RSA");
+Key signingKey = kf.generatePrivate(spec);
+
+JwtBuilder builder = Jwts.builder()
+        .setIssuedAt(now)
+        .setIssuer(applicationId)
+        .signWith(signingKey, signatureAlgorithm);
+
+// time to live of the token in milliseconds
+Long ttlMillis = 60000;
+        
+long expMillis = nowMillis + ttlMillis;
+Date exp = new Date(expMillis);
+builder.setExpiration(exp);
+ 
+String jwtToken = builder.compact() 
+GitHub gitHubApp = new GitHubBuilder().withJwtToken(jwtToken).build();
+
+String organisation = "...."
+GHAppInstallation appInstallation = gitHubApp.getApp().getInstallationByOrganization(organisation);
+
+Map<String, GHPermissionType> permissions = new HashMap<>();
+permissions.put("contents", GHPermissionType.WRITE);
+permissions.put("metadata", GHPermissionType.READ);
+
+GHAppInstallationToken appInstallationToken = appInstallation
+          .createToken(permissions)
+          .create();
+```
+Don't worry about the deprecation warnings, as there is no given alternative. This [issue](https://github.com/hub4j/github-api/issues/961) describes the background of this problem.
+
+* Get an installation token,  this will authenticate yourself against the organisations auth entity.
+
+```java
+GitHub githubAuthAsInst = new GitHubBuilder()
+        .withAppInstallationToken(appInstallationToken.getToken())
+        .build();
+
+String repositoryName = "...."
+var repository  = githubAuthAsInst.getRepository(organisation+"/"+repositoryName);
+```
+
+## Generate the workflow file
+
+The next step involves creating a workflow file to describe what should happen in your repsitory on commit. As the workflow file
+is simply a declarative file of workflow actions, we can simply create a file and commit it to the _.github_ directory.
+
+This [guide](https://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-java-with-maven) explains how workflow files look like. You can adapt it based on what is needed
+to build your application. 
+
+All what is needed as a final step is to push the generated file to the repsitory:
+
+```java
+String workflowFile = "...."
+byte[] workflowFileBytes = Files.asByteSource(new File(workflowFile)).read();
+repository.createContent()
+        .content(workflowFileBytes)
+        .path(".github/workflows/maven.yaml")
+        .branch(repository.getDefaultBranch())
+        .message("create workflow file")
+        .commit()
+```
+

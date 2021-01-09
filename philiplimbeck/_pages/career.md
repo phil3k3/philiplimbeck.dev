@@ -105,6 +105,11 @@ Another important fact related to communication is to let your team, your manage
 Eating lunch at your desk psychologically keeps you in your problem-solving mode and you don't really step back from your problems but keep pondering about them. 
 My experience is that many problems are solved after a break, as you are able to let your subconscious mind deal with it.    
 
+* Finance
+
+Learn to save and don't overspend. Consumption keeps you side-tracked on what actually matters in life and usually leaves you less time to improve yourself. That being said, you should still focus
+to build up wealth. Money is not a means to consume but a means to create and extend your freedom in life. Because this is one of my prime interests recently, I dedicated it a separate [article]({{ site.baseurl }}{% link _pages/finance.md %}). 
+
 * Relationships
 
 It is quite possible to regularly encounter people who will drain your positive energy and attitude towards life. You can only
