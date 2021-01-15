@@ -1,63 +1,51 @@
 ---
 layout: single
-title:  "GitOps"
+title:  "An introduction to GitOps"
 date:   2020-10-13 16:11:35 +0200
-categories: jekyll update
+classes: wide
 ---
-# The state of GitOps in 2020
-
 Recently I was thinking about how to orchestrate deployments across a set of Kubernetes clusters. The traditional 
 recipe for this problem involves a traditional CI/CD tool, such as TeamCity or Jenkins, to be configured to use 
-their corresponding Kubernetes plugins (see here and here) for accessing the corresponding clusters. This means that
-you have to at first know which service at which version has to end up at which cluster.  
+their corresponding Kubernetes plugins (see here and here) for accessing the corresponding clusters. A classic
+release pipeline defines how to service artifacts (such as Helm charts) are moved through each quality gate.
 
 Additional infrastructure is necessary when the CI/CD tool is not supposed to run on your own premises but in the cloud
-itself. 
+itself. So called "federation clusters" are deployed to ensure that you have "something" which is always up and 
+running, also checking for any changes in your repositories. When they detect a change, a new release is built and applied to
+the next environment ahead.
 
-Options:
+These pipelines usually look something like this:
 
-* A traditional tool running on a federation cluster and direct acess
+![pipeline](.././assets/images/CI_CD_Classic.png)
 
-Pros/Cons?
+The problem with these tools is that they always access the cluster from outside. Hence, besides Git, there is
+a second source of truth (encoded in the pipeline itself), which defines how changes should be applied. This requires
+the cluster being open for these requests. And that usually means that sometimes the pipeline degrades to that:
 
-* Spinnaker
-* FluxCD and Helm Operator
-* Tanka
-* Manual promotion (on small environments, otherwise error prone)
-* Google binary authorization in terms of staging -> production
-* ArgoCD
-* A combination of Jenkins, Git Actions, CircleCI and Cloudify to manage multi-cluster Kubernetes deployment
+![pipeline](.././assets/images/CI_CD_Classic_Compromised.png)
 
+So even though your CI/CD build tool has a feature to trace down any deployment you did through the pipeline, it fails miserably
+when you allow compromising deployments to happen from outside. As these deployments become untraceable, also rolling back to the previous
+version comes with an additional risk of simply manually rolling out the previous version again, especially when your chose CI/CD tool doesn't support
+rollbacks nicely.
 
-https://www.linkedin.com/pulse/cncf-survey-breakdown-most-organizations-using-more-than-nati-shalom/?trackingId=NtaOgAw5RbGcnjKhmji8Zg==
+# GitOps
 
-Entering GitOps
+A new and recent paradigm is inverting the control for the pipeline. It is called "GitOps", and refers to Git being the only source of truth
+regards to your deployments. A picture is more than thousands words, so there we go:
 
-GitOps is an approach which requires a much different mindset. Much like IoC suddenly makes dependencies injected 
-instead of composed, the approach GitOps takes is a similar reversal of who is in control in regards to changes to the 
-server. While traditionally, changes to the cluster (not necessarily the Kubernetes cluster), are performed from 
-outside, via shell commands, exposed Rest APIs or other protocols, the GitOps approach uses the pull-principle. 
-An actor - usually in form of a control-loop - observes declarative state in a Git repository and applies it onto your 
-cluster from within. That means that the cluster is shielded away from external access but fetches its desired target 
-state by itself and applies these changes automatically. 
+![pipeline](.././assets/images/CI_CD_GitOps.png)
 
-Challenges
+GitOps approach uses the pull-principle. A 'reconciler' - usually in form of a control-loop - observes declarative state in a Git repository and applies it onto your
+cluster from within. That means that the cluster is shielded away from external access but fetches its desired target state by itself and applies these changes automatically.
+During the CI stage, the version in the declarative definition is updated to point to the latest one available.
 
-Dead letter queue for tasks which cannot be applied to the service. 
+# Downsides
 
-Apart from the complexity, other issues arise when you have services scattered across multiple Kubernetes clusters, according to a repeated
-survey from 2019 and 2020, more than X % have more than one Kubernetes cluster for their environments. Which means the issue of a feasible
-and fail-safe way of deploying services across envioronments is a pressing one.
-
-Developer Experience 
---------------------
-
-Entering Developer Experience (DevEx, or DX) is a term coined recently, and analogous to UX, it describes the degree of painfulness a developer has
-to go through to setup their services. This became more important with the advent of DevOps, as developers are largely also reponsible for keeping their
-services running. Before this was only about building them, while providing infrastructure as well as deploying them was performed by dedicated "Ops" or IT departments, usually also responsible for networking. 
-Hence, the DevEX wasn't an issue that much as specialists had enough time to prepare and arrange the right set of tools and custom solution for efficient deliveries.
-
-Almost 60% of companies interviewed in a survey have more than one production cluster.
-
-
+* Git is not designed for programmatic updates made by services, it is effectively mis-using it as a data store. Yes it can handle merge-conflicts, but it is all designed for human interaction in mind. This automated approach
+  can also lead to unwanted API throttling as too much deployments are made throughout the day.
+* Altough the commits made into Git are visible in its log, it takes substantial effort to analyse and parse these logs to answer questions about i.e. when a certain version was on which environment
+* The more you try to avoid the mentioned issues in the first point, the more granular these repositories have to be. This might eventually result in one service repository per environment. If you have five environments and only ten services
+  you can do the math on the number required. And I am not yet talking about maintaining them, i.e. keeping them aligned with policies and security measures.
+* The declarative files are not entangled with Git. It doesn't care about the structural correctness of them, so you have to provide additional effort to make sure only valid declarations enter the environment repositories.
 
