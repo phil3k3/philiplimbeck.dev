@@ -5,24 +5,21 @@ date:   2020-10-13 16:11:35 +0200
 classes: wide
 ---
 Recently I was thinking about how to orchestrate deployments across a set of Kubernetes clusters. The traditional 
-recipe for this problem involves a traditional CI/CD tool, such as TeamCity or Jenkins, to be configured to use 
-their corresponding Kubernetes plugins (see here and here) for accessing the corresponding clusters. A classic
-release pipeline defines how to service artifacts (such as Helm charts) are moved through each quality gate.
+recipe for this problem involves a traditional CI/CD tool, such as TeamCity or Jenkins, and some boilerplate scripts
+and tokens for authentication in order to access the cluster. A classic release pipeline defines how to service artifacts (such as Helm charts) are moved through each quality gate.
 
 Additional infrastructure is necessary when the CI/CD tool is not supposed to run on your own premises but in the cloud
 itself. So called "federation clusters" are deployed to ensure that you have "something" which is always up and 
 running, also checking for any changes in your repositories. When they detect a change, a new release is built and applied to
-the next environment ahead.
+the next environment in the pipeline. These pipelines usually look something like this:
 
-These pipelines usually look something like this:
-
-![pipeline](.././assets/images/CI_CD_Classic.png)
+![pipeline](/assets/images/CI_CD_Classic.png)
 
 The problem with these tools is that they always access the cluster from outside. Hence, besides Git, there is
-a second source of truth (encoded in the pipeline itself), which defines how changes should be applied. This requires
-the cluster being open for these requests. And that usually means that sometimes the pipeline degrades to that:
+a second source of truth (encoded in the pipeline itself), which defines how changes should be applied. it also requires
+the cluster being accessible from outside for these requests. And that usually means that sometimes the pipeline degrades to that:
 
-![pipeline](.././assets/images/CI_CD_Classic_Compromised.png)
+![pipeline](/assets/images/CI_CD_Classic_Compromised.png)
 
 So even though your CI/CD build tool has a feature to trace down any deployment you did through the pipeline, it fails miserably
 when you allow compromising deployments to happen from outside. As these deployments become untraceable, also rolling back to the previous
@@ -34,11 +31,11 @@ rollbacks nicely.
 A new and recent paradigm is inverting the control for the pipeline. It is called "GitOps", and refers to Git being the only source of truth
 regards to your deployments. A picture is more than thousands words, so there we go:
 
-![pipeline](.././assets/images/CI_CD_GitOps.png)
+![pipeline](/assets/images/CI_CD_GitOps.png)
 
-GitOps approach uses the pull-principle. A 'reconciler' - usually in form of a control-loop - observes declarative state in a Git repository and applies it onto your
+GitOps is based on the pull-principle, i.e pulling changes from the repository. A 'reconciler' - usually in form of a control-loop - observes declarative state in a Git repository and applies it onto your
 cluster from within. That means that the cluster is shielded away from external access but fetches its desired target state by itself and applies these changes automatically.
-During the CI stage, the version in the declarative definition is updated to point to the latest one available.
+During the CI stage, the version in the declarative definition is updated to point to the one desired.
 
 # Downsides
 
