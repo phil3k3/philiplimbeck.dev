@@ -4,18 +4,14 @@ permalink: /cv/
 classes: wide
 ---
 
-I am a passionate software engineer, team lead and data enthusiast with over 12 years of professional experience in developing scalable, sustainable and reliable software. 
+I am a passionate software engineer and data enthusiast with over 12 years of professional experience in developing scalable, sustainable and reliable software. 
 Familiar with all stages in the development cycle from design to continuous delivery. Fond of working in agile software development organizations and customer-oriented environments. 
 Seeks and fosters practices of constant improvement for the team as well as for himself. Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
 
 
 **Engineering Team Lead** _Nov 2019 - Present_
 
-* Leading the trading team and soon after the whole broker core team including cash/asset management
-* Growing the and building up a highly motivated and   
-* Integration with several partners to improve the quote rates as well as enable fractional trading in the platform
-* Infrastructure harmonization as well as decluttering through Terraform
-* Several contributions to the BUX internal CQRS framework 
+* Busy rocking the [World of Finance](https://www.getbux.com) 
 
 _BUX BV, Amsterdam_
 

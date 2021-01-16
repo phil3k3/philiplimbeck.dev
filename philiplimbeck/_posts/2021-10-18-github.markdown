@@ -5,7 +5,9 @@ date:   2020-10-13 16:11:35 +0200
 categories: jekyll update
 ---
 
-# Preparations
+In this post I will explain how to setup GitHub Actions programmatically. Although libraries ilke kohsuhke make it easy to commit
+the workflow files to your repository, the preferred way of authenticating is discouraged for certain use cases. That's why it
+might be worth thinking about using a GitHup App instead. 
 
 * Create your GitHub App by following the steps described at [https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-a-github-app)
 * It needs to have Read & Write access to the repository contents in order to be able to read and subsequently commit files
