@@ -50,10 +50,6 @@ defaults:
     values:
       author_profile: true
 
-social:
-  links: 
-    - "https://www.linkedin.com/in/philip-limbeck-78354883/"
-
 analytics:
   provider: "google"
   google:
@@ -70,6 +66,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phil3k3"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/philip-limbeck-78354883/"
 
 include: ["_pages"]
 
