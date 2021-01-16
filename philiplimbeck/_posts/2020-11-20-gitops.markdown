@@ -26,7 +26,7 @@ when you allow compromising deployments to happen from outside. As these deploym
 version comes with an additional risk of simply manually rolling out the previous version again, especially when your chose CI/CD tool doesn't support
 rollbacks nicely.
 
-# GitOps
+# [GitOps](https://www.gitops.tech/)
 
 A new and recent paradigm is inverting the control for the pipeline. It is called "GitOps", and refers to Git being the only source of truth
 regards to your deployments. A picture is more than thousands words, so there we go:
@@ -45,4 +45,10 @@ During the CI stage, the version in the declarative definition is updated to poi
 * The more you try to avoid the mentioned issues in the first point, the more granular these repositories have to be. This might eventually result in one service repository per environment. If you have five environments and only ten services
   you can do the math on the number required. And I am not yet talking about maintaining them, i.e. keeping them aligned with policies and security measures.
 * The declarative files are not entangled with Git. It doesn't care about the structural correctness of them, so you have to provide additional effort to make sure only valid declarations enter the environment repositories.
+
+# Supporting tools (selected)
+
+* [JenkinsX](https://jenkins-x.io/) 
+* [ArgoCD](https://argoproj.github.io/argo-cd/) (based on [Tekton](https://tekton.dev)) 
+* [Spinnaker](https://spinnaker.io/)
 
