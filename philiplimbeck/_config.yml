@@ -92,5 +92,5 @@ include: ["_pages"]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-#plugins:
-#  - jekyll-target-blank
+plugins:
+  - jekyll-target-blank

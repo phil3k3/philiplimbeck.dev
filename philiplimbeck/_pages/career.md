@@ -87,7 +87,7 @@ TODO find a good meditation app and suggest it here, or other guides/tips on med
 
 * Read
 
-Reading is to the mind what exercise is to your body. A [study](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecoj.12307]) published in 2015 shows that children who grew up sourrounded by books stay in the education system substantially longer.
+Reading is to the mind what exercise is to your body. A [study](https://onlinelibrary.wiley.com/doi/abs/10.1111/ecoj.12307) published in 2015 shows that children who grew up sourrounded by books stay in the education system substantially longer.
 In turn, staying a year longer in the edcuation system results in an increase of lifetime earnings by 9%.  
 The information density in books is much higher compared to videos or audio content. So if you want to ingest as much information as possible about a specific topic, reading is the best way forward. I suggest
 getting a Kindle ([Amazon de](https://amzn.to/37RRkGe) \| [Amazon en](https://amzn.to/2WSKR7q) ) as it allows you to carry thousands of books with you at all times.
