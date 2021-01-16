@@ -30,7 +30,7 @@ item, which is fine as well, but I want you use it as a blueprint to build your 
 
 Don't stay awake to binge watch the latest series. But you also don't need to up at 5 am just because you want to squeeze more activities in. There are many guides 
 on how to optimize sleep, but I recommend not saving on matresses and pillows. Investing in sleep equipment means investing in your well-being. Avoid electronics in your bedroom, especially your phone.
-Ideally your bedroom is for sleeping and having sex only. Ideally also your desk is located in a different room, to mentally associate the bedroom with sleep.
+Ideally your bedroom is for sleeping only (mostly). Ideally also your desk is located in a different room, to mentally associate the bedroom with sleep.
 
 If you want to understand the importance and the background of effective sleep I can recommend _Why We Sleep: Unlocking the Power of Sleep and Dreams_ by Matthew Walker PhD
 ([Amazon de](https://amzn.to/38FNK0O )| [Amazon en](https://amzn.to/34Oga82)).
