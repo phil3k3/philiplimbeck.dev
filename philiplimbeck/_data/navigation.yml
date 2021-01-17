@@ -1,9 +1,9 @@
 main:
   - title: "Imprint"
-    url: /imprint
+    url: /imprint/index.html
   - title: "About Me"
-    url: /cv
+    url: /cv/index.html
   - title: "Career"
-    url: /career
+    url: /career/index.html
   - title: "Bookshelf"
-    url: /bookshelf
+    url: /bookshelf/index.html
