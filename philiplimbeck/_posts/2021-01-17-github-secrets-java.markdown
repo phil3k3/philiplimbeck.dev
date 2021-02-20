@@ -1,5 +1,6 @@
 ---
-layout: single title:  "Setup GitHub Actions through a GitHub App"
+layout: single 
+title:  "Creating GitHub Secrets programmatically"
 date:   2020-10-13 16:11:35 +0200
 ---
 
