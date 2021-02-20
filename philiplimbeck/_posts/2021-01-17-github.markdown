@@ -2,7 +2,6 @@
 layout: single
 title:  "Setup GitHub Actions through a GitHub App"
 date:   2020-10-13 16:11:35 +0200
-categories: jekyll update
 ---
 
 In this post I will explain how to setup GitHub Actions programmatically. Although libraries ilke kohsuhke make it easy to commit
