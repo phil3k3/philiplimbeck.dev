@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Using ByteBuddy to generate classes at runtime"
-date:   2020-10-13 16:11:35 +0200
+date:   2021-01-01 16:11:35 +0200
 ---
 
 Although the JDK offers a reflection capabiliies which allow you to introspect classes, their methods and properties,

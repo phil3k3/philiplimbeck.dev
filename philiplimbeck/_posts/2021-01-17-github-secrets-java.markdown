@@ -1,7 +1,7 @@
 ---
 layout: single 
 title:  "Creating GitHub Secrets programmatically"
-date:   2020-10-13 16:11:35 +0200
+date:   2021-02-20 16:11:35 +0200
 classes: wide
 ---
 
