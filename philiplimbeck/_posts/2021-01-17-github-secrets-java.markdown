@@ -2,6 +2,7 @@
 layout: single 
 title:  "Creating GitHub Secrets programmatically"
 date:   2020-10-13 16:11:35 +0200
+classes: wide
 ---
 
 GitHub Actions offer an easy and straightfoward way to setup Workflows around your repository to run tests, build your
