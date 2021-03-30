@@ -28,13 +28,13 @@ relationships, finance as well as mental strength and personal development.
 ( [Amazon en](https://amzn.to/34P8zpB) )
 * Mastery, Robert Greene  
 ( [Amazon de](https://amzn.to/3mTo8D0) \| [Amazon en](https://amzn.to/2WQwYXE) )
-* Bitcoin Billionaires  
+* Bitcoin Billionaires, Ben Mezrich   
 ( [Amazon de](https://amzn.to/2KI4Jrr) \| [Amazon en](https://amzn.to/3aOJ2Rc) )
 * 25 inspirational and motivational stories for my Younger Self, Dr Julian Hosp  
 ( [Amazon de](https://amzn.to/2KTcryN) \| [Amazon en](https://amzn.to/2KFokIL) )
 * How To Win Friends And Influence People, Dale Carnegie  
 ( [Amazon de](https://amzn.to/3poG4qE) \| [Amazon en](https://amzn.to/2M2HwAy) )
-* The Black Swan, Nassim Taleb 
+* The Black Swan, Nassim Taleb  
 ( [Amazon de](https://amzn.to/3aHCTq5) \| [Amazon en](https://amzn.to/3pqOJZF) )
 * Total Recall: My Unbelievably True Life Story, Arnold Schwarzenegger  
 ( [Amazon de](https://amzn.to/3ppOL3T) \| [Amazon en](https://amzn.to/3hjZ2Mi) )
