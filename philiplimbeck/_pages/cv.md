@@ -9,6 +9,12 @@ Familiar with all stages in the development cycle from design to continuous deli
 Seeks and fosters practices of constant improvement for the team as well as for himself. Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
 
 
+**Engineering Team Lead/Software Architect** _Nov 2019 - Present_
+
+* Busy rocking the [World of Finance](https://www.getbux.com)
+
+_BUX BV, Amsterdam_
+
 **Engineering Team Lead** _Nov 2019 - Present_
 
 * Busy rocking the [World of Finance](https://www.getbux.com) 
