@@ -5,7 +5,7 @@ classes: wide
 ---
 # Bookshelf
 
-This is a (non-exhaustive) list of inspring books I have read over time. They address several different topics, including
+This is a (non-exhaustive) list of inspiring books I have read over time. They address different topics, including
 relationships, finance as well as mental strength and personal development.
 
 * Unbeatable Mind, Mark Divine  
@@ -40,7 +40,21 @@ relationships, finance as well as mental strength and personal development.
 ( [Amazon de](https://amzn.to/3ppOL3T) \| [Amazon en](https://amzn.to/3hjZ2Mi) )
 * A Random Walk Down Wallstreet, Burton Malkiel  
 ( [Amazon de](https://amzn.to/3psTTo8) \| [Amazon en](https://amzn.to/37OII35) )
-* Think and grow rich, Napolean Hill  
+* Think and grow rich, Napoleon Hill  
 ( [Amazon de](https://amzn.to/3hnEjaE) \| [Amazon en](https://amzn.to/3nXeBvW) )
 * Abundance: The future is better than you think, Peter H. Diamandis  
 ( [Amazon de](https://amzn.to/3nTXM4X) \| [Amazon en](https://amzn.to/38yc4lq) )
+* Clean Architecture: A Craftsman's Guide to Software Structure and Design, Robert C. Martin
+( [Amazon de](https://www.amazon.de/dp/B075LRM681) \| [Amazon en](https://www.amazon.com/dp/0134494164)
+* Emotional Intelligence, Daniel Goleman
+( [Amazon de](https://www.amazon.de/dp/055384007X) \| [Amazon en](https://www.amazon.com/dp/055338371X) )
+* The Infinite Machine: How an Army of Crypto-hackers Is Building the Next Internet with Ethereum, Camila Russo
+( [Amazon de](https://www.amazon.de/dp/0062886142) \| [Amazon en](https://www.amazon.com/dp/B07XJ7WKXL) )
+* Kaufen oder Mieten?: Wie Sie für sich die richtige Entscheidung treffen, Gerd Kommer
+( [Amazon de](https://www.amazon.de/dp/3954716283) )
+* Outliers: The Story of Success, Outliers: The Story of Success
+( [Amazon de](https://www.amazon.de/dp/B002RI9PKO) \| [Amazon en](https://www.amazon.com/dp/0316017930) )
+* The Behavioral Investor, Daniel Crosby
+( [Amazon de](https://www.amazon.de/dp/B07HH99WH8) \| [Amazon en](https://www.amazon.com/dp/0316017930) )
+* The End of Banking: Money, Credit, And the Digital Revolution, Jonathan McMillan
+( [Amazon de](https://www.amazon.de/dp/3952438510) \| [Amazon en](https://www.amazon.com/dp/3952438510) )

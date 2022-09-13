@@ -17,7 +17,7 @@ This brings me to the second important point:
 
 *  Automate your savings
 
-Saving should be a habit, just like brushing your teeth. Ideally it gets removed from your concious mind by automating it. That means, right after your income 
+Saving should be a habit, just like brushing your teeth. Ideally it gets removed from your conscious mind by automating it. That means, right after your income 
 arrives at your account, you take away a fixed amount of savings and move it to a safe space where it can't be spent that easily. Ideally it's an account
 where you don't have a debit card for. From there, you can further split up your saved money and distribute it into differente other accounts. One could 
 be your emergency fund, for broken things, repairs, etc.. One could be your future budget for holidays. And the most important and third one, should be the source

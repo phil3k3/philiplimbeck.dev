@@ -8,8 +8,9 @@ permalink: /imprint/
 ### Information in accordance with Section 5 TMG
 
 Philip Limbeck  
-Spuistraat 201B  
-1012VN Amsterdam
+Ungargasse 23/20
+1030 Vienna
+Austria
 
 E-Mail: [firstname].[lastname]@gmail.com  
 Internet address: https://www.philiplimbeck.dev
