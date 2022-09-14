@@ -8,8 +8,8 @@ permalink: /imprint/
 ### Information in accordance with Section 5 TMG
 
 Philip Limbeck  
-Ungargasse 23/20
-1030 Vienna
+Ungargasse 23/20  
+1030 Vienna  
 Austria
 
 E-Mail: [firstname].[lastname]@gmail.com  
