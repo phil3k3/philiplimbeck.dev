@@ -4,22 +4,30 @@ permalink: /cv/
 classes: wide
 ---
 
-I am a passionate software engineer and data enthusiast with over 12 years of professional experience in developing scalable, sustainable and reliable software. 
-Familiar with all stages in the development cycle from design to continuous delivery. Fond of working in agile software development organizations and customer-oriented environments. 
-Seeks and fosters practices of constant improvement for the team as well as for himself. Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
+I am a passionate hands-on technologist, experienced in developing scalable and reliable software as well as scaling a team of motivated engineers to accommodate customer's demand
+of exciting features in the FinTech landscape. Familiar with all stages in the development cycle from design to continuous delivery. 
+Fond of working in agile software development organizations and customer-oriented environments. 
+Seeks and fosters practices of constant improvement for his team as well as for himself. 
+Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
 
 
 **Engineering Team Lead/Software Architect** _Nov 2019 - Present_
 
-* Busy rocking the [World of Finance](https://www.getbux.com)
+* Scaled a agile small team of 4 to a team of 12 highly motivated engineers
+* Led the technical design and implementation of new features, such as enabling to trade crypto-assets
+* Implemented a security policy for the core of the trading product
+* Provided architectural guidance across all engineering teams
+* Supported the Chief Architect in various initiatives such as the transformation of the DevOps landscape
 
 _BUX BV, Amsterdam_
 
-**Engineering Team Lead** _Nov 2019 - Present_
+**Founder** _Nov 2021 - Present_
 
-* Busy rocking the [World of Finance](https://www.getbux.com) 
+* Provide consulting services in the FinTech space
+* Research of technical topics in the crypto community
 
-_BUX BV, Amsterdam_
+_Fincloud Software GmbH, Vienna_
+
 
 **Senior Backend Developer** _Oct 2018 - Oct 2019_
 
@@ -66,6 +74,10 @@ _Senactive GmbH, Vienna_
 * **FlinkEsper**
 
 An attempt to integrate the Esper engine with its query capabilities for pattern matching into Apache Flink to provide highly scalable pattern matching on event streams.
+
+* **CQRS Rust**
+
+A CQRS framework written in Rust.
 
  ## Education
 
