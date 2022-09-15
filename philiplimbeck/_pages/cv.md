@@ -17,7 +17,6 @@ Keen to put to work his excellent analytical skills, high degree of accuracy and
 * Led the technical design and implementation of new features, such as enabling to trade crypto-assets
 * Implemented a security policy for the core of the trading product
 * Provided architectural guidance across all engineering teams
-* Supported the Chief Architect in various initiatives such as the transformation of the DevOps landscape
 
 _BUX BV, Amsterdam_
 
@@ -31,7 +30,7 @@ _Fincloud Software GmbH, Vienna_
 
 **Senior Backend Developer** _Oct 2018 - Oct 2019_
 
-* Forming of software processes to enable the development of BUX Zero
+* Defining software processes for the core trading platform
 * Software design and architecture of the core platform 
 * Successful launch of a stable and reliable trading platform based on Kafka and CQRS
 * Introduction of US Stocks
