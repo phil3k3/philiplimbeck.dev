@@ -34,7 +34,7 @@ masthead_title: "Tales of a Software Engineer"
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 
 defaults:
   - scope:
@@ -61,7 +61,7 @@ author:
   name: "Philip Limbeck"
   avatar: "/assets/images/image-big.jpg"
   bio: "I code, travel and board"
-  location: "Amsterdam, Netherlands"
+  location: "Vienna, Austria"
   links: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
