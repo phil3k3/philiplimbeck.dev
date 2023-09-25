@@ -5,10 +5,12 @@ classes: wide
 ---
 
 I am a passionate hands-on technologist, experienced in developing scalable and reliable software as well as scaling a team of motivated engineers to accommodate customer's demand
-of exciting features in the FinTech landscape. Familiar with all stages in the development cycle from design to continuous delivery. 
+of exciting features in the FinTech and recently Web3 ecosysteme. Familiar with all stages in the development cycle from design to continuous delivery. 
 Fond of working in agile software development organizations and customer-oriented environments. 
 Seeks and fosters practices of constant improvement for his team as well as for himself. 
 Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
+
+![test](/assets/images/me.jpeg){:class="img-responsive" width="400" }
 
 **Founder** _Nov 2021 - Present_
 
@@ -68,13 +70,13 @@ _Senactive GmbH, Vienna_
 
 ## Projects
 
-* **FlinkEsper**
+* **Streamify** 
+* A [money-streaming app](https://streamify-proto-lhqqm2m5q-phil3k3.vercel.app/) based on [Superfluid](https://docs.superfluid.finance/superfluid/) written in Solidity and ECMAScript. 
 
-An attempt to integrate the Esper engine with its query capabilities for pattern matching into Apache Flink to provide highly scalable pattern matching on event streams.
 
 * **CQRS Rust**
 
-* A CQRS framework written in Rust. (https://github.com/phil3k3/cqrs-rust)
+* A [CQRS framework](https://github.com/phil3k3/cqrs-rust) written in Rust. 
 
  ## Education
 
