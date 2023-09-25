@@ -9,6 +9,7 @@ of exciting features in the FinTech ecosystem. Familiar with all stages in the d
 Fond of working in agile software development organizations and customer-oriented environments. 
 Seeks and fosters practices of constant improvement for his team as well as for himself. 
 Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
+
 Recently started my journey to dive deeper into the world of DeFi and Web3 to help building the financial infrastructure of the future.
 
 ![test](/assets/images/me.jpeg){:class="img-responsive" width="400" }
