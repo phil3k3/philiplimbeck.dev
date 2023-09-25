@@ -15,11 +15,13 @@ Recently started my journey to dive deeper into the world of DeFi and Web3 to he
 ![me](/assets/images/me.jpeg){:class="img-responsive" width="400" }
 
 **Fincloud Software GmbH, Vienna**
+
 _Founder_ _Nov 2021 - Present_
 * Consulting services
 * Web3 Hackathons and Conferences
 
 **BUX BV, Amsterdam**
+
 _Engineering Team Lead/Software Architect_ _Nov 2019 - May 2023_
 * Scaled an agile small team of 4 to a team of 12 highly motivated engineers
 * Led the technical design and implementation of new features, such as enabling to trade crypto-assets
@@ -27,6 +29,7 @@ _Engineering Team Lead/Software Architect_ _Nov 2019 - May 2023_
 * Provided architectural guidance across all engineering teams
 
 **BUX BV, Amsterdam**
+
 _Senior Backend Developer_ _Oct 2018 - Oct 2019_
 * Defining software processes for the core trading platform
 * Software design and architecture of the core platform
@@ -34,17 +37,20 @@ _Senior Backend Developer_ _Oct 2018 - Oct 2019_
 * Introduction of US Stocks
 
 **Automic GmbH, acquired by CA, Vienna**
+
 _Sr. Software Engineer_ _May 2017 - Sep 2018_
 * Integration of a highly scalable complex event processing framework into a workload automation platform.
 * Lead and drive discussions affecting the component's architecture and its interfaces to other technical components.
 
 **EBCONT Enterprise Technologies GmbH, Vienna**
+
 _IT Senior Consultant_ _Jan 2015 - May 2017_
 * Reduced backend latency to 25% by introducing consistent distributed second level caching in a SaaS application for presentation editing for Red Bull.
 * Improved user experience by migrating the search functionality for a Red Bull web portal for more than 700 universities from Apache Solr to Elastic Search.
 * Advised AEP, an Ohio-based power supplier, on optimizing their solution for monitoring power outages of 130,000 customers.
 
 **Automic (formerly UC4) GmbH, Vienna**
+
 _Software Engineer_ _Oct 2010 - Dec 2014_
 * Led the transformation from a monolithic to a highly scalable architecture for a SaaS analytics product for Automic's job scheduling engine.
 * Supported the closing of a million-dollar deal by adding new features to a legacy Complex Event Processing engine.
@@ -52,6 +58,7 @@ _Software Engineer_ _Oct 2010 - Dec 2014_
 * Developed and conducted technical trainings for pre-sales and customer service teams located in Vienna and Seattle, WA.
 
 **Senactive GmbH, Vienna**
+
 _Developer (part time)_ _Nov 2005 - Sep 2009_
 * Published the findings of a proof of concept implementation for a Complex Event Processing based recommender system in a peer-reviewed conference paper.
 * Continuously improved the quality by writing integration and black-box tests for a distributed Complex Event Processing engine.
