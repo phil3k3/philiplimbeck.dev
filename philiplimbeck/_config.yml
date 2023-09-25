@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -62,14 +62,16 @@ author:
   avatar: "/assets/images/image-big.jpg"
   bio: "I code, travel and board"
   location: "Vienna, Austria"
-  links: 
+  links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/phil3k3"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/philip-limbeck-78354883/"
-
+    - label: "Ethereum"
+      icon: "fab fa-fw fa-brands fa-ethereum"
+      url: "https://app.ens.domains/phil3k.eth"
 include: ["_pages"]
 
 # Exclude from processing.

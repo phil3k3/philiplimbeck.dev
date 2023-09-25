@@ -10,8 +10,14 @@ Fond of working in agile software development organizations and customer-oriente
 Seeks and fosters practices of constant improvement for his team as well as for himself. 
 Keen to put to work his excellent analytical skills, high degree of accuracy and self-reliant working style.
 
+**Founder** _Nov 2021 - Present_
 
-**Engineering Team Lead/Software Architect** _Nov 2019 - Present_
+* Consulting services
+* Web3 Hackathons and Conferences
+
+_Fincloud Software GmbH, Vienna_
+
+**Engineering Team Lead/Software Architect** _Nov 2019 - May 2023_
 
 * Scaled a agile small team of 4 to a team of 12 highly motivated engineers
 * Led the technical design and implementation of new features, such as enabling to trade crypto-assets
@@ -19,14 +25,6 @@ Keen to put to work his excellent analytical skills, high degree of accuracy and
 * Provided architectural guidance across all engineering teams
 
 _BUX BV, Amsterdam_
-
-**Founder** _Nov 2021 - Present_
-
-* Provide consulting services in the FinTech space
-* Research of technical topics in the crypto community
-
-_Fincloud Software GmbH, Vienna_
-
 
 **Senior Backend Developer** _Oct 2018 - Oct 2019_
 
