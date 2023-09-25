@@ -20,6 +20,8 @@ _Founder_ (_Nov 2021 - Present_)
 * Consulting services
 * Web3 Hackathons and Conferences
 
+
+
 **BUX BV, Amsterdam**
 
 _Engineering Team Lead/Software Architect_ (_Nov 2019 - May 2023_)
@@ -27,6 +29,7 @@ _Engineering Team Lead/Software Architect_ (_Nov 2019 - May 2023_)
 * Led the technical design and implementation of new features, such as enabling to trade crypto-assets
 * Implemented a security policy for the core of the trading product
 * Provided architectural guidance across all engineering teams
+
 
 **BUX BV, Amsterdam**
 
