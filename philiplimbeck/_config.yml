@@ -34,7 +34,7 @@ masthead_title: "Tales of a Software Engineer"
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "sunrise"
 
 defaults:
   - scope:

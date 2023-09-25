@@ -74,16 +74,13 @@ An attempt to integrate the Esper engine with its query capabilities for pattern
 
 * **CQRS Rust**
 
-A CQRS framework written in Rust.
+* A CQRS framework written in Rust. (https://github.com/phil3k3/cqrs-rust)
 
  ## Education
 
 * **MSc in Medical Informatics** Vienna University of Technology _2009 - 2011_
 * **BSc in Medical Informatics** Vienna University of Technology _2005 - 2008_
-* **Certified Scrum Master** (Scrum Alliance) _2015_ (expired)
-* COURSES
-* Managing Talent course
-
+* **Certified Scrum Master** (Scrum Alliance) _2015_
 
 ## Languages
 * **German** (Native)
