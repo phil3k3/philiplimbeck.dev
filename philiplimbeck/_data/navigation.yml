@@ -7,3 +7,5 @@ main:
     url: /career/index.html
   - title: "Bookshelf"
     url: /bookshelf/index.html
+  - title: "My ETH Validator"
+    url: https://beaconcha.in/validator/947141

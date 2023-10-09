@@ -18,9 +18,12 @@ Recently started my journey to dive deeper into the world of DeFi and Web3 to he
 
 _Founder_ (_Nov 2021 - Present_)
 * Consulting services
-* Web3 Hackathons and Conferences
-
-
+* Web3 Hackathons and Conferences around:
+  * Account Abstraction
+  * TradFi/Web3 solutions
+  * DVT (Distributed Validator Technology)
+  * Superfluid
+* Running an ETH Validator on Rocketpool (https://beaconcha.in/validator/947141)
 
 **BUX BV, Amsterdam**
 
