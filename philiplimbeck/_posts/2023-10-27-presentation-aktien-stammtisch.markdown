@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Presentation for beginners: Crypto Investing"
+title:  "Presentation at Stock Market MeetUp Vienna: Crypto Investing"
 date:   2023-11-28 16:11:35 +0200
 ---
 
