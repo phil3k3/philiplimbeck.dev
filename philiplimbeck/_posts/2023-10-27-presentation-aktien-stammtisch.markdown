@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Presentation for beginners: Crypto Investing"
-date:   2021-01-15 16:11:35 +0200
+date:   2023-11-28 16:11:35 +0200
 ---
 
 To sharpen my presentation skills as well as show my passion about the possibilities of Web3, I decided
