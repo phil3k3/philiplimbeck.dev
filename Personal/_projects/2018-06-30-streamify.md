@@ -8,7 +8,7 @@ featured_image: '/images/streamify.png'
 
 ![](/images/demo/demo-landscape.jpg)
 
-## Demo content
+## Streamify
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 
