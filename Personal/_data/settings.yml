@@ -18,10 +18,6 @@ menu_settings:
       url: '/contact'
     - title: 'Imprint'
       url: '/imprint'
-    - title: 'Bookshelf'
-      url: '/bookshelf'
-    - title: 'Guide'
-      url: '/guide'
 footer_settings:
   footer_tagline: (c) Philip & Fincloud Software, 2024
 
