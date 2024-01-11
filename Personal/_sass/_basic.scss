@@ -454,3 +454,35 @@ section {
 		@include translate(0,30px);
 	}
 }
+
+.tag-style-lang {
+	background-color: #7f8c8d; /* Soft blue-gray */
+	color: white;
+	padding: 3px 6px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.tag-style-infra {
+	background-color: #9b59b6; /* Lavender color */
+	color: white;
+	padding: 3px 6px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.tag-style-data {
+	background-color: #2ecc71; /* Emerald green */
+	color: white;
+	padding: 3px 6px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.tag-style-other {
+	background-color: #d35400; /* Pumpkin orange, darker than yellow */
+	color: white;
+	padding: 3px 6px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}

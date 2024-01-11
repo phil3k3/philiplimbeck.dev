@@ -1,7 +1,8 @@
 ---
-title: 'Rocketpool ETH Validator'
+title: 'Ethereum Validator'
+subtitle: 'Running an validator with Rocketpool'
 date: 2018-06-30 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
+description: My approach of running an Ethereum validator with Rocketpool
 featured_image: '/images/demo/rocketpool.png'
 ---
 
@@ -23,6 +24,11 @@ These are my learnings and recommendations:
 * Use a service like pingdom to get alerted when the whole instance becomes unavailable (impeding Grafana Alerts)
 * Automate the creation of your box as much as possible to be able to resume where you left of and not losing many attestations
 * Use beaconchain metrics, they also provide a Mobile App for checking out the metrics on the go
+
+### Tools
+
+<span class="tag-style-lang">Bash</span>
+<span class="tag-style-infra">Ansible</span>
 
 ### Relevant links
 - [Tailscale](https://tailscale.com/)
