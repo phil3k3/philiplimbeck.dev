@@ -29,6 +29,8 @@ These are my learnings and recommendations:
 
 <span class="tag-style-lang">Bash</span>
 <span class="tag-style-infra">Ansible</span>
+<span class="tag-style-infra">Grafana</span>
+<span class="tag-style-infra">Prometheus</span>
 
 ### Relevant links
 - [Tailscale](https://tailscale.com/)
