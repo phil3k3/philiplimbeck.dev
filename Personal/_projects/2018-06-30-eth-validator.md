@@ -2,7 +2,7 @@
 title: 'Ethereum Validator'
 subtitle: 'Running an validator with Rocketpool'
 date: 2018-06-30 00:00:00
-description: My approach of running an Ethereum validator with Rocketpool
+description: Running an Ethereum validator with Rocketpool on the mainnet
 featured_image: '/images/demo/rocketpool.png'
 ---
 

@@ -12,6 +12,12 @@ Keen to put to work his excellent analytical skills, high degree of accuracy and
 
 Recently started my journey to dive deeper into the world of DeFi and Web3 to help building the financial infrastructure of the future.
 
+My CV is available in three formats
+
+one-pager
+two-pager
+extended
+
 ![me](/assets/images/me.jpeg){:class="img-responsive" width="400" }
 
 **Fincloud Software GmbH, Vienna**
@@ -115,3 +121,4 @@ Les Menuires, France, 2010
 * P. Limbeck, J. Schiefer.
 _Solution Architecture for Visitor Segmentation and Recommendation Generation in Real Time_. Proceedings of the 9th International Conference on Electronic Commerce and Web Technologies
 Turin, Italy, 2008)_
+
