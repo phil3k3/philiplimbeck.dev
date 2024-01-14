@@ -1,0 +1,47 @@
+---
+layout: single
+title:  "Combining Magic, Userop.js and Stackup as well as Zerodev"
+date:   2021-01-15 16:11:35 +0200
+---
+
+Even though its 2023 and the account abstraction hype in Web3 seems to come to an end, it's still something
+essential to make the blockchain and crypto assets usable to the masses who never even heard about crypto. 
+
+One essential problem everybody is confronted with is gas fees. Aside from the fact that you have to know
+the native token of the chain you are in as well as have native tokens to pay for transactions, it can easily
+lead to non-technical users giving up on it (or use a centralized exchange).
+
+From a developers perspective, dealing with this problem quickly makes you end up reading the EIP-4337 whitepaper
+(link).
+
+But how does this translate to your approach of providing transactions in a gas-free version?
+
+Let's first dig into the individual pieces we will use in this tutorial:
+
+* Magic
+
+Magic allows you to abstract authentication for dedicated wallets (one which we will build).
+
+* Stackup / userop.js
+
+
+
+* What is Magic
+* What is Userop.js / Stackup ? 
+* What is EIP-4337
+* What is Zerodev
+
+
+
+Magic creates a private key / signer in the background which can be used to generate a smart account
+using Stackup. Stackup provides an implementation of EIP-4337 which includes a bundler service and 
+optionally a paymaster. It can use a default kernel such as Smartaccount.sol or a custom one such as Zerodev.
+The gas-less execution allows to create a truly different user experience, as the user doesn't need to 
+have gas to do their transactions. The private key from Magic acts as signer to sign transactions which are sent
+over to stackup. Stackup also maintains userop.js, a general purpose JavaScript library to interact with all 
+kinds of account abstraction (even aside from Stackup itself). 
+
+Let's look at a concrete example and walk through each step.
+
+
+
