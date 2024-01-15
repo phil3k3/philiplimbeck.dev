@@ -15,7 +15,7 @@ menu_settings:
     - title: 'About'
       url: '/cv/index.html'
     - title: 'Contact'
-      url: '/contact/index.html'
+      url: '/contact.html'
     - title: 'Imprint'
       url: '/imprint/index.html'
 footer_settings:
