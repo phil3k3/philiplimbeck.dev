@@ -11,13 +11,13 @@ menu_settings:
     - title: 'Projects'
       url: '/'
     - title: 'Blog'
-      url: '/blog/'
+      url: '/blog/index.html'
     - title: 'About'
-      url: '/cv'
+      url: '/cv/index.html'
     - title: 'Contact'
-      url: '/contact'
+      url: '/contact/index.html'
     - title: 'Imprint'
-      url: '/imprint'
+      url: '/imprint/index.html'
 footer_settings:
   footer_tagline: (c) Philip & Fincloud Software, 2024
 
