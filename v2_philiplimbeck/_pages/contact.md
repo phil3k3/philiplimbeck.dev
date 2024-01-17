@@ -5,5 +5,18 @@ description: Personal is the perfect theme for developers, designers and other c
 featured_image: /images/demo/contact.jpg
 ---
 
+I help you manage the tricky parts around your software stack. From tooling to cloud infrastructure, I can support
+you with experience and knowledge to make your software project succeed and be sustainable in the long-term.
+
+* Software Architecture consulting (Event-driven Architecture, CQRS, Kafka, RabbitMQ)
+* Cloud infrastructure (GCP, AWS, Kubernetes, Docker/Containerd, CI/CD)
+* Software Engineering (JVM/GraalVM, Rust)
+* Web3 consulting
+   - Running your own ETH validator  
+   - Smart contracts (Solidity and [Ink!](https://use.ink/)) 
+   - Seamlessly integrate the blockchain into your regular business
+   - Bridging web2 and web3
+   - Analytics and [TheGraph](https://thegraph.com/)
+
 {% include contact-form.html %}
 
