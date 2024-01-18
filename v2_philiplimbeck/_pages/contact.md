@@ -11,7 +11,9 @@ you with experience and knowledge to make your software project succeed and be s
 * Software Architecture consulting (Event-driven Architecture, CQRS, Kafka, RabbitMQ)
 * Cloud infrastructure (GCP, AWS, Kubernetes, Docker/Containerd, CI/CD)
 * Software Engineering (JVM/GraalVM, Rust)
-* Web3 consulting
+* Web3/DeFi consulting  
+   - Account Abstraction
+   - Payment solutions (Request Finance, Superfluid)
    - Running your own ETH validator  
    - Smart contracts (Solidity and [Ink!](https://use.ink/)) 
    - Seamlessly integrate the blockchain into your regular business
